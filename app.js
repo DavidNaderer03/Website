@@ -4,6 +4,6 @@ const app = express();
 
 app.use(express.static('./public'));
 
-app.listen(port, "mywebsit.ecom", () => {
+app.listen(port, () => {
     console.log(`port listens to 3000`);
 });
